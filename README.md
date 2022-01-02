@@ -1,5 +1,5 @@
 # SkyProtect
-======
+
 Application for distributed big file upload to 4 different clouds: Amazon S3, Google Storage, Azure Blob Storage and NextCloud.
 
 First of all, you need to you need to fill up the accounts.properties file (you can find it inside the config folder) with Amazon key pair and create environment variables for Google and Azure.  
