@@ -7,4 +7,4 @@ To do that follow the links below:
 To start working with the software product, you need to create accounts on AWS, Microsoft Azure, GCP and install NextCloud. After that, you need to obtain API access keys on each platform.
 To find the Amazon S3 keys, go to the AWS Management Console, click on the S3 service, then select your account name in the upper right corner and go to the security credentials. 
 Then generate your access keys and secret keys.
-![dfgd](https://ibb.co/Gx7ZPKC)
+![dfgd](https://imgbox.com/2YEDDCSP)
