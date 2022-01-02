@@ -1,7 +1,7 @@
 # SkyProtect
 Application for distributed big file upload to 4 different clouds: Amazon S3, Google Storage, Azure Blob Storage and NextCloud.
 
-First of all, you need to you need to fill up the accounts.properties file (you can find it inside the config folder). 
+First of all, you need to you need to fill up the accounts.properties file (you can find it inside the config folder) with Amazon key pair and create environment variables for Google and Azure. 
 To fill up this file you need first create accounts in the cloud providers. 
 To do that follow the links below:
 To start working with the software product, you need to create accounts on AWS, Microsoft Azure, GCP and install NextCloud. After that, you need to obtain API access keys on each platform.
@@ -16,3 +16,17 @@ To start working with the software product, you need to create accounts on AWS, 
 ![NextCloud](https://i.ibb.co/hWQwRbn/nextcloud.png)
 
 
+
+Available commands:
+pick 'name'     - change the container
+write 'data'    - write a new version in the selected container
+en_write 'data' - write a new version with additional encryption
+download 'path' - download the last version of the selected container
+get_all_files   - return list of existing files in containers
+get_all_units   - return list of existing units
+delete_all      - delete all the files in the selected container
+hash_download 'num' - download old versions, you need to enter filename
+help            - shows list of available commands"
+exit            - stop the program
+
+ATTENTION! Multi-threaded file upload needs some work, please be aware of that before using this application. Thanks for your attention and good luck!
